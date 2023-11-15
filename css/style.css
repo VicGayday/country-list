@@ -1,0 +1,66 @@
+@import "reset.css";
+@import "variables.css";
+@import "table.css";
+@import "loader.css";
+@import "pagination.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+body {
+  color: var(--text-primary);
+  font: var(--font-m);
+  max-width: 1920px;
+  min-height: 769px;
+  background: var(--background-primary);
+}
+.main {
+  margin: 20px;
+}
+.container {
+  max-width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.h1 {
+  font: var(--font-l);
+  text-align: center;
+}
+.footer {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.page-wrapper {
+  display: flex;
+  margin-left: auto;
+}
+.input {
+  outline: none;
+}
+.span {
+  color: var(--text-secondary);
+}
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+@media (max-width: 460px) {
+  body {
+    font: var(--font-s);
+  }
+  .span {
+    display: none;
+  }
+  .page-wrapper {
+    margin-left: 0;
+  }
+}
