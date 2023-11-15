@@ -1,5 +1,5 @@
 
-{<img width="1437" alt="Снимок экрана 2023-11-15 в 13 38 28" src="https://github.com/VicGayday/country-list/assets/61756803/9be894f0-0dff-4725-baf2-03cb4ab754dd">
+<img width="1437" alt="Снимок экрана 2023-11-15 в 13 38 28" src="https://github.com/VicGayday/country-list/assets/61756803/9be894f0-0dff-4725-baf2-03cb4ab754dd">
 <img width="1437" alt="Снимок экрана 2023-11-15 в 13 38 20" src="https://github.com/VicGayday/country-list/assets/61756803/23bb8cc0-f10c-412a-8a10-35fb96a224d4">
 <img width="1437" alt="Снимок экрана 2023-11-15 в 13 38 10" src="https://github.com/VicGayday/country-list/assets/61756803/723f123f-d997-4844-b38d-10869acd9fde">
 
@@ -17,7 +17,7 @@
         "is_shipping_country": false             //доступна ли страна для доставки
       }
     ],
-    "rpag": {                                    //объект информации о пагинации
+    {"rpag": {                                    //объект информации о пагинации
       "has_next": false,                         //есть ли следующая страница
       "has_previous": false,                     //есть ли предыдущая страница
       "has_other_pages": false,                  //есть ли другие страницы
